@@ -115,8 +115,7 @@ while True:
 
                             # set brightness
                             sbc.set_brightness(int(b_level))
-    # Display Video and when 'q'
-    # is entered, destroy the window
+    #press q to quit the program
     cv2.imshow('Image', img)
     if cv2.waitKey(1) & 0xff == ord('q'):
         break
